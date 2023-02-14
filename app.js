@@ -15,7 +15,7 @@ const words = [
 
 setInterval(
 	() => {
-		console.log(words[(index++)&words.length])
+		console.log(words[(index++)%words.length])
 	},
 	1000
 )
